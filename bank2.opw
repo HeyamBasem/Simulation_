@@ -1,0 +1,11 @@
+[RESOURCES]
+stal1
+[VARIABLES]
+server 1.NumberOut
+server 1.NumberIn
+Dispose 1.NumberOut
+Decide 1.NumberOut True
+Create 1.NumberOut
+Route 1
+Decide 1.NumberOut False
+Variable 3

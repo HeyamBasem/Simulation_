@@ -1,0 +1,64 @@
+
+                                      ARENA Simulation Results
+                                      hp - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/17/2019
+Analyst: Rockwell Automation                                         Model revision date:12/17/2019
+
+Replication ended at time      : 30.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.0207     (Insuf)    .67088     1.3861         24    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         24    
+Entity 1.WaitTime                           .04775     (Insuf)    .00000     1.1459         24    
+Entity 1.TranTime                           .11250     (Insuf)    .10000     .40000         24    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         24    
+Entity 1.TotalTime                          1.1809     (Insuf)    .77088     2.4756         24    
+server 1 window area.Queue.WaitingTime      .00000     (Insuf)    .00000     .00000         14    
+server 2 window area.Queue.WaitingTime      .19099     (Insuf)    .00000     1.1459          6    
+server 3 window area.Queue.WaitingTime      .00000     (Insuf)    .00000     .00000          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .94477     (Insuf)    .00000     4.0000     .00000    
+stal1.NumberBusy                            .47973     (Insuf)    .00000     1.0000     .00000    
+stal1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+stal1.Utilization                           .47973     (Insuf)    .00000     1.0000     .00000    
+stal2.NumberBusy                            .19862     (Insuf)    .00000     1.0000     .00000    
+stal2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+stal2.Utilization                           .19862     (Insuf)    .00000     1.0000     .00000    
+stal3.NumberBusy                            .13823     (Insuf)    .00000     1.0000     .00000    
+stal3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+stal3.Utilization                           .13823     (Insuf)    .00000     1.0000     .00000    
+server 1 window area.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+server 2 window area.Queue.NumberInQueue    .03820     (Insuf)    .00000     1.0000     .00000    
+server 3 window area.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           24.000    
+Entity 1.NumberOut                          24.000    
+stal1.NumberSeized                          14.000    
+stal1.ScheduledUtilization                  .47973    
+stal2.NumberSeized                          6.0000    
+stal2.ScheduledUtilization                  .19862    
+stal3.NumberSeized                          4.0000    
+stal3.ScheduledUtilization                  .13823    
+System.NumberOut                            24.000    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.

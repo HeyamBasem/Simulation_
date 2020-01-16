@@ -1,0 +1,13 @@
+[RESOURCES]
+stal1
+stal2
+stal3
+[VARIABLES]
+server 1 window area.NumberOut
+server 3 window area.NumberIn
+server 2 window area.NumberIn
+server 2 window area.NumberOut
+server 1 window area.NumberIn
+Arrival.NumberOut
+server 3 window area.NumberOut
+Exit.NumberOut
